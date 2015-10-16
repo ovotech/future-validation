@@ -1,7 +1,7 @@
 import com.ovoenergy.sbt._
 
-organization := "com.ovoenergy"
-scalaVersion := "2.11.7"
+name := "future-validation"
 libraryDependencies ++= Dependencies.all
 
+new OvoBuild {}.basicSettings
 Publish.defaultSettings
